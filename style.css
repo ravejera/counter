@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 98vh;
+    background-color: rgb(177, 196, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* padding: 3rem 6rem; */
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10rem;
+    width: 16rem;
+    align-items: center;
+}
+h2{
+    text-transform: uppercase;
+}
+#value{
+    font-size: 2rem;
+}
